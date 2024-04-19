@@ -162,7 +162,7 @@ checkoutBtn.addEventListener("click", function () {
   const isOpen = checkBurguerOpen();
   if (!isOpen) {
     Toastify({
-      text: "Nous sommes pas ouvert maintenant, desole mon ami!",
+      text: "Nous sommes désolés, nous sommes actuellement fermés. Revenez plus tard !",
       duration: 3000,
       close: true,
       gravity: "top", // `top` or `bottom`
@@ -208,7 +208,7 @@ checkoutBtn.addEventListener("click", function () {
 function checkBurguerOpen() {
   const data = new Date();
   const hora = data.getHours();
-  return hora >= 20 && hora < 24;
+  return hora >= 18 && hora < 24;
 }
 
 const spanItem = document.getElementById("date-span");

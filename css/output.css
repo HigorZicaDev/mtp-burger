@@ -2016,7 +2016,7 @@ video {
 }
 
 .bg-home {
-  background-image: url('/assets/bg.png');
+  background-image: url('https://raw.githubusercontent.com/HigorZicaDev/mtp-burger/refs/heads/main/assets/bg.png');
 }
 
 .decoration-slice {

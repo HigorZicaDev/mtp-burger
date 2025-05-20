@@ -7,7 +7,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        home: "url('/assets/bg.png')",
+        home: "url('https://raw.githubusercontent.com/HigorZicaDev/mtp-burger/refs/heads/main/assets/bg.png')",
       },
     },
   },
